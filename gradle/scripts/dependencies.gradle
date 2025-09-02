@@ -65,4 +65,8 @@ dependencies {
     // implementation ('com.google.code.gson:gson:2.8.6') {
     //     transitive = false
     // }
+
+    implementation "curse.maven:groovyscript-687577:5789690"
+    implementation rfg.deobf("curse.maven:modularui-624243:6919652")
+
 }

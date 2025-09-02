@@ -11,8 +11,6 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import static net.bronit.groovyadditions.Constants.CONFIG_GENERAL;
-
 @Mod(
         modid = Constants.MOD_ID,
         name = Constants.MOD_NAME,

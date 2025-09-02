@@ -16,7 +16,7 @@ public class Config {
         String category;
 
         try {
-            category = "guiRecipeEditor";
+            category = "recipe_editor";
             confug.addCustomCategoryComment(category, "GUI Recipe Editor");
             this.groovyGUIRecipes = confug.getBoolean("enableGuiRecipeEditor", category, false, "Enables the creation of recipes in the GUI\nWork only with ModularUI");
 
